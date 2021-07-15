@@ -1,0 +1,66 @@
+﻿@page
+@model OddToFood.Pages.ListModel
+@{
+    Model.Name = Model.Name + " iyidir.";
+
+    var temp = Model.Name;
+}
+
+
+<h1>Restourant List</h1>
+
+
+
+@*<div><h4> @temp @Model.msg </h4></div>*@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div>
+                <table class="table">
+                    @foreach (var restaurant in Model.Restaurants)
+                    {
+                        <tr>
+                            <td>@restaurant.Id</td>
+                            <td>@restaurant.Name</td>
+                            <td>@restaurant.KitchenType</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div>
+                <table class="table">
+                    @foreach (var customer in Model.Customers)
+                    {
+                        <tr>
+                            <td>@customer.Id</td>
+                            <td>@customer.Name</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        @foreach (var button in Model.Buttons)
+        {
+            if (button.Name.Contains("cel"))
+            {
+                <button type="button" class="btn btn-danger">@button.Name</button>
+            }
+            else if (button.Name == "Sign")
+            {
+                <button type="button" class="btn btn-success">@button.Name</button>
+            }
+            else if (button.Name == "Skip")
+            {
+                <button type="button" class="btn btn-primary">@button.Name</button>
+            }
+
+        }
+
+    </div>
+</div>
+
+

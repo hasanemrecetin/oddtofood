@@ -1,0 +1,8 @@
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\bin\Debug\netcoreapp3.1\OddToFood.Core.deps.json
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\bin\Debug\netcoreapp3.1\OddToFood.Core.dll
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\bin\Debug\netcoreapp3.1\OddToFood.Core.pdb
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\obj\Debug\netcoreapp3.1\OddToFood.Core.AssemblyInfoInputs.cache
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\obj\Debug\netcoreapp3.1\OddToFood.Core.AssemblyInfo.cs
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\obj\Debug\netcoreapp3.1\OddToFood.Core.csproj.CoreCompileInputs.cache
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\obj\Debug\netcoreapp3.1\OddToFood.Core.dll
+C:\Users\L\source\repos\OddToFood.Web\OddToFood.Core\obj\Debug\netcoreapp3.1\OddToFood.Core.pdb

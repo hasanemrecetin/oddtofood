@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OddToFood.Data/1.0.0": {
+        "dependencies": {
+          "OddToFood.Core": "1.0.0"
+        },
+        "runtime": {
+          "OddToFood.Data.dll": {}
+        }
+      },
+      "OddToFood.Core/1.0.0": {
+        "runtime": {
+          "OddToFood.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OddToFood.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OddToFood.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
